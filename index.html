@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class project 1</title> 
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="main.js" defer></script>
+</head>
+<body class="bg-emerald-80 font-serif justify-center-safe content-center">
+    <div class="max-w-2xl mx-auto p-4">
+    <h1 class="text-4xl font-bold text-gray-800">What is my BMI? Calculate your Body mass Index below</h1>
+    <label for="weight">Please enter your weight </label><br><br>
+    <input class="border-3 border-solid border-gray-200" type="number" id="weight" placeholder="Enter weight in kg"> <br><br>
+    <label for="height">Please enter your height</label><br><br>
+    <input class="border-3 border-solid border-gray-200" type="number" id="height" placeholder="Enter height in cm"> <br><br><br>
+    <button onclick="calculateBMI()" class="bg-emerald-900 text-white " >Calculate</button>
+    <p id="result" class="text-lg font-bold text-gray-800 mt-4"></p>
+    
+
+</div>
+</body>
+</html>
